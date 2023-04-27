@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade maneirona</title>
+</head>
+
+<body>
+    <h1>Formulário</h1>
+
+    <form method="post" action="">
+        
+        <fieldset>
+            <legend>Dados pessoais</legend>
+
+            <div>
+                <label for="nome">Nome do usuário: </label>
+                <input type="text" name="nome" id="nome" placeholder="" size="20">
+            </div>
+
+            <br>
+
+            <div>
+                <label for="endereco">Endereço: </label>
+                <input type="text" name="endereco" id="endereco" placeholder="" size="20">
+            </div>
+            
+            <br>
+
+            <div>
+                <label for="cidade">Cidade: </label>
+                <input type="text" name="cidade" id="cidade" placeholder="" size="20">
+            </div>
+
+            <br>
+
+            <label>Estado:</label>
+
+                <select name="estado" id="estado">
+                    <option value="1">São Paulo</option>
+                    <option value="2">Espírito Santo</option>
+                    <option value="3">Rio de Janeiro</option>
+                    <option value="4">Paraná</option>
+                    <option value="5">Minas Gerais</option>
+                    <option value="6">Santa Catarina</option>
+                    <option value="7">Rio Grande do Sul</option>
+                    <option value="8">Bahia</option>
+                    <option value="9">Sergipe</option>
+                    <option value="10">Pernambuco</option>
+                    <option value="11">Maranhão</option>
+                    <option value="12">Ceará</option>
+                    <option value="13">Outro</option>
+                </select>
+        </fieldset>
+
+        <fieldset>
+            <legend>Dados Profissionais</legend>
+
+            <div>
+                <label>Natureza do cargo:</label><br>
+
+                <input type="radio" name="gerencia" id="gerencia" checked>
+                <label>Gerência</label>
+                <input type="radio" name="financeiro" id="financeiro">
+                <label>Financeiro</label>
+                <input type="radio" name="recepcao" id="recepcao">
+                <label>Recepção</label>
+                <input type="radio" name="administrativo" id="administrativo">
+                <label>Administrativo</label>
+                <input type="radio" name="juridico" id="juridico">
+                <label>Juridico</label>
+            </div>
+
+            <br>
+
+            <div>
+                <label>Qual a tecnologia dominada?</label><br>
+
+                <input type="checkbox" name="computacao" id="computacao">
+                <label>Computação</label>
+                <input type="checkbox" name="biologia" id="biologia">
+                <label>Biologia</label>
+                <input type="checkbox" name="ambiente" id="ambiente">
+                <label>Meio Ambiente</label>
+                <input type="checkbox" name="engenharia" id="engenharia">
+                <label>Engenharia</label>
+                <input type="checkbox" name="historia" id="historia">
+                <label>História</label>
+            </div>
+
+            <br>
+
+            <div>
+                <label>Mini-currículo</label><br>
+                <textarea name="" id="" cols="55" rows="8" placeholder="O que você tem a oferecer?"></textarea>
+            </div>
+
+        </fieldset>
+
+        <br>
+
+        <div>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </div>
+
+    </form>
+</body>
+</html>
