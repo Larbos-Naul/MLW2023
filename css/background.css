@@ -1,0 +1,30 @@
+.bgcolor {
+    background-color: burlywood;
+    height: 50px;
+}
+
+.bgimage{
+    background-image: url(https://tntsports.com.br/__export/1643719599695/sites/esporteinterativo/img/2022/02/01/gazeta-press-foto-364249_crop1643717728676.jpg_87740980.jpg);
+    height: 510px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: 50% 0%; /*Porcentagem dos lados dps vertical*/
+    background-size: cover; /*auto = tamanho meio que normal / contain = mosta  imgagem inteira / cover = cobre a div toda*/
+}
+
+.bgimage p{
+    background-color: rgba(95, 158, 160, 0.623);
+}
+
+body {
+    background-image: url(https://i.ytimg.com/vi/-l9Rq5o8Vhk/maxresdefault.jpg);
+    background-position: 50% 0%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body h1 {
+    background-color: burlywood;
+    background-attachment: fixed; /*background-attachment: fixed  = fixa a imagem de fundo*/
+    font-weight: 900;
+}
