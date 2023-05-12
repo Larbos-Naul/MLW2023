@@ -6,10 +6,11 @@
 .bgimage{
     background-image: url(https://tntsports.com.br/__export/1643719599695/sites/esporteinterativo/img/2022/02/01/gazeta-press-foto-364249_crop1643717728676.jpg_87740980.jpg);
     height: 510px;
-    text-align: center;
+    text-align: center; /*alinhamento dos textos*/
     background-repeat: no-repeat;
     background-position: 50% 0%; /*Porcentagem dos lados dps vertical*/
-    background-size: cover; /*auto = tamanho meio que normal / contain = mosta  imgagem inteira / cover = cobre a div toda*/
+    background-size: cover; /*auto = tamanho meio que normal / contain = mosta  imgagem inteira / cover = cobre a div toda / length = largura e altura definida em pixels ou porcentagem*/
+    
 }
 
 .bgimage p{
@@ -25,6 +26,6 @@ body {
 
 body h1 {
     background-color: burlywood;
-    background-attachment: fixed; /*background-attachment: fixed  = fixa a imagem de fundo*/
+    background-attachment: fixed; /*background-attachment: fixed  = fixa a imagem de fundo / scroll = padrãozao, desce junto com o site*/
     font-weight: 900;
 }
