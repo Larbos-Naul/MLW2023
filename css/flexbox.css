@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 850px;
+    display: flex; /*div por padrão é display block então cai, com flex fica do ladinho bonitinho*/
+    flex-direction: row;
+    flex-wrap: wrap; /*por padrão se estoura a tela não cai, se adapta. O wrap faz descer.*/
+    justify-content: center; /*alinha horizontalmente (no row, se for column inverte vertical e horizontal)*/
+    align-items: center; /*alinha verticalmente (no row, se for column inverte vertical e horizontal)*/
+}
+
+.child{
+    width: 20%;
+    height: 200px;
+    background-color: cadetblue;
+    border: 1px solid black;
+}
